@@ -1,0 +1,127 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+.top-section {
+  background-color: #483e82;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.top-section .quote p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pets-highlight {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.pets-highlight img {
+  width: 123px;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid white;
+}
+
+.adopt-button {
+  background-color: #00bfff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.pet-types {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+main.content {
+  padding: 30px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about p {
+  font-size: 5;
+  line-height: 2;
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
+.pets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pet-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 120px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.pet-card p {
+  margin: 8px 0;
+  font-weight: bold;
+  color: #483e82;
+}
+
+.support-message {
+  background-color: #483e82;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.pix {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pix h2 {
+  font-size: 1.1rem;
+  color: #483e82;
+  margin-bottom: 10px;
+}
+
+.pix-key {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #483e82;
+}
