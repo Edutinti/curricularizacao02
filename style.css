@@ -3,22 +3,28 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6;
+  background-color: white;
   color: #333;
 }
 
+.purple-background {
+  background-color: #555183;
+  padding-bottom: 50px;
+  clip-path: ellipse(100% 100% at 50% 0%);
+}
+
 .top-section {
-  background-color: #483e82;
   color: white;
   text-align: center;
   padding: 30px 20px;
-  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .top-section .quote p {
-  font-size: 1.1rem;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .pets-highlight {
@@ -46,6 +52,12 @@ body {
   border-radius: 8px;
   margin-bottom: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.adopt-button:hover {
+  background-color: #0080ff;
+  transform: scale(1.05);
 }
 
 .pet-types {
@@ -57,14 +69,45 @@ body {
 }
 
 main.content {
-  padding: 30px 20px;
-  max-width: 500px;
-  margin: 0 auto;
+  padding: 80px 50px;
+  max-width: 800px;
+  margin: -30px auto 0;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  border: 1px solid #483e82;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about {
+  text-align: left;
+  position: relative;
+  margin-top: 40px;
+}
+
+.about-image-container {
+  width: 150px;
+  height: 150px;
+  margin: -80px 0 20px 0;
+  position: relative;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #483e82;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: white;
 }
 
 .about p {
-  font-size: 5;
-  line-height: 2;
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-align: justify;
   margin-bottom: 35px;
 }
@@ -73,29 +116,49 @@ main.content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   margin-bottom: 30px;
+}
+
+.pet-container {
+  padding: 8px;
+  background: linear-gradient(45deg, #483e82, #493d8a);
+  border-radius: 12px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.pet-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .pet-card {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   width: 120px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: none;
 }
 
 .pet-card img {
   width: 100%;
   height: 120px;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.pet-card:hover img {
+  transform: scale(1.05);
 }
 
 .pet-card p {
   margin: 8px 0;
   font-weight: bold;
   color: #483e82;
+  font-size: 0.9rem;
 }
 
 .support-message {
@@ -105,16 +168,20 @@ main.content {
   border-radius: 10px;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .pix {
   text-align: center;
   margin-top: 30px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
 
 .pix h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #483e82;
   margin-bottom: 10px;
 }
@@ -124,4 +191,84 @@ main.content {
   font-weight: bold;
   letter-spacing: 1px;
   color: #483e82;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* Estilização usando o ID #cachorroimg */
+#cachorroimg {
+    width: 200px;          /* Largura fixa */
+    height: 200px;         /* Altura fixa (mantenha igual para quadrado) */
+    object-fit: cover;     /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 10px;   /* Bordas arredondadas */
+    border: 3px solid #483e82; /* Borda roxa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    display: block;        /* Remove espaços indesejados */
+    margin: 0 auto;        /* Centraliza a imagem */
+    transition: all 0.3s;  /* Suaviza efeitos hover */
+}
+
+/* Efeito ao passar o mouse */
+#cachorroimg:hover {
+    transform: scale(1.05);    /* Aumenta levemente */
+    filter: brightness(1.05);  /* Aumenta brilho */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+}
+
+/* Estilo opcional para o container */
+.pet-container {
+    text-align: center;    /* Centraliza o conteúdo */
+    margin: 20px 0;
+}
+
+/* Estilo para o texto abaixo da imagem */
+.pet-container p {
+    font-weight: bold;
+    color: #483e82;
+    margin-top: 10px;
+}
+
+#paragrafoadocao{
+  background-color: #555183;
+  border-radius: 50px;
+  color: #ffff;
+  padding: 50px;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 600px) {
+  main.content {
+    padding: 60px 20px;
+    max-width: 100%;
+    border-radius: 0;
+  }
+  
+  .about-image-container {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+  }
+  
+  .pets {
+    gap: 10px;
+  }
+  
+  .pet-container {
+    padding: 5px;
+  }
+  
+  .pet-card {
+    width: 100px;
+  }
+  
+  .pet-card img {
+    height: 100px;
+  }
 }
