@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,26 +9,29 @@
 </head>
 <body>
 
-  <div class="purple-background">
-    <header class="top-section">
-      <div class="quote">
-        <p>"Adotar é abrir as portas do seu coração para um amor incondicional."</p>
+ <div class="hero-section">
+  <header class="hero-content">
+    <div class="hero-text">
+      <h1>Adote um Amigo, Mude uma Vida</h1>
+      <p class="hero-quote">"Adotar é abrir as portas do seu coração para um amor incondicional e encontrar a mais pura felicidade em um olhar de gratidão."</p>
+      <a class="hero-cta-button" href="#secao-adocao-nova">ADOTE AGORA MESMO!</a>
+    </div>
+    <div class="hero-pets-showcase">
+      <div class="hero-pet-image-container">
+        <img src="imagens/branca.jpeg" alt="Branca, uma cachorrinha para adoção">
+        <span class="hero-pet-name">Branca</span>
       </div>
-
-      <div class="pets-highlight">
-        <img src="imagens/branca.jpeg" alt="Branca">
-        <img src="imagens/barto.jpeg" alt="Bartô">
-
+      <div class="hero-pet-image-container">
+        <img src="imagens/barto.jpeg" alt="Bartô, um gatinho para adoção">
+        <span class="hero-pet-name">Bartô</span>
       </div>
-    
-      <a class="adopt-button" href="#adocaoLink">ADOTE AGORA MESMO!</a>
+    </div>
+    <div class="hero-pet-types-banner">
+      <span>🐶 CACHORROS E GATOS ESPERANDO POR VOCÊ 🐈</span>
+    </div>
+  </header>
+</div>
 
-      <div class="pet-types">
-        <span>🐾 CACHORRO</span>
-        <span>🐾 GATO</span>
-      </div>
-    </header>
-  </div>
 
   <main class="content">
     <section class="about">
@@ -95,28 +99,55 @@
       </div>
     </section>
 
-    <section>
+    <section id="secao-adocao-nova">
+        <p id="adocaoLink2"><strong>Adotar é abrir o coração para um novo começo, onde o amor encontra um lar e a esperança ganha um nome</strong></p>
+        <div class="pet-container">          
+            <img id="cachorroimg" src="imagens/120.png" alt="Cachorro para adoção">
+            <p>Nome do Cachorro</p> 
+        </div>
+        <div class="container-novos-animais">
+          <div class="animal-para-adocao" id="animal-luma">
+            <img src="imagens/luma.jpeg" alt="Luma para adoção" class="animal-imagem">
+            <div class="animal-info">
+              <h3>Luma</h3>
+              <p>Luma é uma cachorrinha cheia de energia e amor para dar. Com seu olhar doce e jeitinho brincalhão, ela está pronta para encontrar um lar quentinho e levar muita alegria para sua nova família. Que tal dar uma chance para essa companheira leal?</p>
+              <a class="botao-adotar-animal">Quero conhecer a Luma!</a>
+            </div>
+          </div>
 
-    <p id="paragrafoadocao"><strong>Adotar é abrir o coração para um novo começo, onde o amor encontra um lar e a esperança ganha um nome</strong></p>      
-      <div class="pet-container">
-        <img id="cachorroimg" src="imagens/120.png" alt="Cachorro para adoção">
-        <p>Nome do Cachorro</p> <!-- Adicione o nome se necessário -->
-      </div>
+          <div class="animal-para-adocao" id="animal-mimi">
+            <img src="imagens/mimi.jpeg" alt="Mimi para adoção" class="animal-imagem">
+            <div class="animal-info">
+              <h3>Mimi</h3>
+              <p>Mimi é uma gatinha curiosa e muito carinhosa. Seus olhos expressivos e ronronar suave conquistam qualquer coração. Ela adora um bom carinho na barriga e um cantinho aconchegante para tirar um cochilo. Mimi está ansiosa para te conhecer!</p>
+              <a class="botao-adotar-animal">Quero conhecer a Mimi!</a>
+            </div>
+          </div>
 
-      <a id="adocaoLink">xd</a>
-
-
+          <div class="animal-para-adocao" id="animal-luzia">
+            <img src="imagens/luzia.jpeg" alt="Luzia para adoção" class="animal-imagem">
+            <div class="animal-info">
+              <h3>Luzia</h3>
+              <p>Luzia é uma gatinha guerreira e cheia de charme, mesmo com seu olhar único. Ela é dócil, adora um colinho e promete ser uma excelente companhia. Luzia superou desafios e agora só quer um lar seguro para retribuir com muito amor e gratidão.</p>
+              <a class="botao-adotar-animal">Quero conhecer a Luzia!</a>
+            </div>
+          </div>
+        </div>
     </section>
 
-    <section>
-
-      <div class="maustratos">
-          <p>Parte dos maus tratos</p>
-
-
+    <section id="secao-maustratos">
+  <div class="maustratos-container">
+    <h2>Maus-tratos a animais é crime. Denuncie!</h2>
+    <div class="maustratos-content">
+      <img src="imagens/animais-maus-tratos.jpg" alt="Cachorro vítima de maus-tratos" class="maustratos-imagem">
+      <div class="maustratos-texto">
+        <p>Os animais são seres sencientes, capazes de sentir dor, medo e alegria. Maus-tratos não se resumem apenas à agressão física; abandonar, negligenciar cuidados básicos como alimentação, água, abrigo e assistência veterinária também são formas de crueldade. É nosso dever proteger os indefesos e garantir que vivam com dignidade e respeito.</p>
+        <p>Se você presenciar ou tiver conhecimento de qualquer ato de maus-tratos, não se cale. Denunciar é um ato de cidadania e pode salvar uma vida. Procure a delegacia de polícia mais próxima, o Ministério Público ou os órgãos ambientais competentes. Sua atitude faz a diferença.</p>
+        <a class="botao-denunciar">Saiba como denunciar</a>
       </div>
-
-    </section>
+    </div>
+  </div>
+</section>
 
     <section>
 
@@ -153,11 +184,32 @@
   </main>
 
   <footer>
-    <section class="pix">
-      <h2>DOE PELO PIX:</h2>
-      <p class="pix-key">03.772.251.0001-82</p>
-    </section>
-  </footer>
+  <div class="footer-compact-container">
+    <div class="footer-compact-top">
+      <div class="footer-compact-pix">
+        <span>DOE PELO PIX: <strong>03.772.251.0001-82</strong></span>
+      </div>
+      <div class="footer-compact-social">
+        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank" rel="noopener noreferrer">Instagram: @acaprabrusquesc</a>
+      </div>
+    </div>
+
+    <div class="footer-compact-links">
+      <a href="#sobre-nos">Sobre nós</a> | 
+      <a href="#fale-conosco">Fale conosco</a> | 
+      <a href="#politicas">Políticas</a> | 
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <div class="footer-compact-notices">
+      <p>🐾 Não somos abrigo, seja um lar temporário! 💪🏻 Venha ser um voluntário.</p>
+    </div>
+
+    <div class="footer-compact-bottom">
+      <p>&copy; 2025 Acapra Brusque. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
