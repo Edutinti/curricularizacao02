@@ -1,4 +1,3 @@
-/* style.css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -191,25 +190,23 @@ main.content {
   font-weight: bold;
   letter-spacing: 1px;
   color: #483e82;
-  background-color: white;
+  background-color: #fffaf0;
   padding: 10px 15px;
   border-radius: 5px;
   display: inline-block;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-
-/* Estilização usando o ID #cachorroimg */
 #cachorroimg {
-    width: 200px;          /* Largura fixa */
-    height: 200px;         /* Altura fixa (mantenha igual para quadrado) */
-    object-fit: cover;     /* Garante que a imagem cubra o espaço sem distorcer */
-    border-radius: 10px;   /* Bordas arredondadas */
-    border: 3px solid #483e82; /* Borda roxa */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    display: block;        /* Remove espaços indesejados */
-    margin: 0 auto;        /* Centraliza a imagem */
-    transition: all 0.3s;  /* Suaviza efeitos hover */
+    width: 200px;          
+    height: 200px;         
+    object-fit: cover;     
+    border-radius: 10px;   
+    border: 3px solid #483e82; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block;        
+    margin: 0 auto;        
+    transition: all 0.3s;  
 }
 
 /* Efeito ao passar o mouse */
@@ -218,14 +215,11 @@ main.content {
     filter: brightness(1.05);  /* Aumenta brilho */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
 }
-
-/* Estilo opcional para o container */
 .pet-container {
-    text-align: center;    /* Centraliza o conteúdo */
+    text-align: center;  
     margin: 20px 0;
 }
 
-/* Estilo para o texto abaixo da imagem */
 .pet-container p {
     font-weight: bold;
     color: #483e82;
@@ -239,8 +233,66 @@ main.content {
   padding: 50px;
 }
 
+.blog h1{
+  font-weight: bold;
+}
 
+.Blog {
+  padding: 20px;
+}
 
+.Blog h1 {
+  color: #483e82; 
+  text-align: center;
+  font-size: 2.8em; 
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  border-bottom: 3px dashed #483e82;
+  padding-bottom: 10px;
+}
+
+.post h3 {
+  color: #483e82; 
+  font-size: 1.8em; 
+  margin-top: 30px; 
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-left: 5px solid #483e82; 
+  padding-left: 10px;
+}
+
+.post p {
+  font-size: 1.1em; 
+  color: #555; 
+  margin-bottom: 20px; 
+  text-align: justify; 
+}
+
+.post {
+  background-color: #fffaf0; 
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px; 
+  border: 2px solid #483e82; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); 
+}
+
+.post h3::before {
+  content: "🐾 ";
+  font-size: 1.2em;
+  margin-right: 5px;
+  color: #483e82; 
+}
+
+a {
+  color: #483e82; 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+  color: #483e82; 
+}
 
 /* Responsividade */
 @media (max-width: 600px) {
@@ -271,4 +323,24 @@ main.content {
   .pet-card img {
     height: 100px;
   }
+    .Blog h1 {
+        font-size: 2.2em;
+    }
+    .post h3 {
+        font-size: 1.5em;
+    }
+    .post p {
+        font-size: 1em;
+    }
+    section {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+    .Blog {
+        padding: 10px;
+    }
+    .post {
+        padding: 15px;
+    }
+  
 }
