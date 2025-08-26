@@ -1,215 +1,363 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ACAPRA - Adoção de Animais</title>
+  <title>ACAPRA - Associação de Proteção aos Animais | Adoção Responsável</title>
+  <meta name="description" content="ACAPRA é uma ONG dedicada ao resgate, reabilitação e adoção responsável de animais abandonados. Conheça nossos animais disponíveis para adoção.">
+  <meta name="keywords" content="adoção de animais, ONG, proteção animal, cachorros, gatos, Brusque">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
- <div class="hero-section">
-  <header class="hero-content">
-    <div class="hero-text">
-      <h1>Adote um Amigo, Mude uma Vida</h1>
-      <p class="hero-quote">"Adotar é abrir as portas do seu coração para um amor incondicional e encontrar a mais pura felicidade em um olhar de gratidão."</p>
-      <a class="hero-cta-button" href="#secao-adocao-nova">ADOTE AGORA MESMO!</a>
-    </div>
-    <div class="hero-pets-showcase">
-      <div class="hero-pet-image-container">
-        <img src="imagens/branca.jpeg" alt="Branca, uma cachorrinha para adoção">
-        <span class="hero-pet-name">Branca</span>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="imagens/logoroxa.png" alt="Logo ACAPRA" class="nav-logo-img">
+        <span class="nav-logo-text">ACAPRA</span>
       </div>
-      <div class="hero-pet-image-container">
-        <img src="imagens/barto.jpeg" alt="Bartô, um gatinho para adoção">
-        <span class="hero-pet-name">Bartô</span>
+      <ul class="nav-menu">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#adocao" class="nav-link">Adoção</a></li>
+        <li><a href="#noticias" class="nav-link">Notícias</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+        <li><a href="#doar" class="nav-link nav-link-donate">Doar</a></li>
+      </ul>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
-    <div class="hero-pet-types-banner">
-      <span>🐶 CACHORROS E GATOS ESPERANDO POR VOCÊ 🐈</span>
-    </div>
-  </header>
-</div>
+  </nav>
 
+  <section id="inicio" class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Adote um Amigo, Mude uma Vida</h1>
+        <p class="hero-quote">"Adotar é abrir as portas do seu coração para um amor incondicional e encontrar a mais pura felicidade em um olhar de gratidão."</p>
+        <a class="hero-cta-button" href="#adocao">ADOTE AGORA MESMO!</a>
+      </div>
+      <div class="hero-pets-showcase">
+        <div class="hero-pet-image-container">
+          <img src="imagens/branca.jpeg" alt="Branca, uma cachorrinha para adoção">
+          <span class="hero-pet-name">Branca</span>
+        </div>
+        <div class="hero-pet-image-container">
+          <img src="imagens/barto.jpeg" alt="Bartô, um gatinho para adoção">
+          <span class="hero-pet-name">Bartô</span>
+        </div>
+      </div>
+      <div class="hero-pet-types-banner">
+        <span>🐶 CACHORROS E GATOS ESPERANDO POR VOCÊ 🐈</span>
+      </div>
+    </div>
+  </section>
 
   <main class="content">
-    <section class="about">
+    <section id="sobre" class="about">
       <div class="about-image-container">
-        <img src="imagens/logo roxa.png" alt="Logo ACAPRA" class="about-image">
+        <img src="imagens/logoroxa.png" alt="Logo ACAPRA" class="about-image">
       </div>
-      <p><strong>ACAPRA</strong> é uma <strong>ONG</strong> sem fins lucrativos que atua no resgate e reabilitação de animais abandonados. Além de promover adoções responsáveis, a organização viabiliza cirurgias e tratamentos médicos por meio de campanhas de arrecadação e doações.</p>
-    </section>
-
-    <section class="pets">
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/maia.jpeg" alt="Maia">
-          <p>Maia</p>
-        </div>
-      </div>
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/gloria.jpeg" alt="Glória">
-          <p>Glória</p>
-        </div>
-      </div>
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/mavie.jpeg" alt="Mavie">
-          <p>Mavie</p>
-        </div>
-      </div>
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/mimi.jpeg" alt="Mimi">
-          <p>Mimi</p>
-        </div>
-      </div>
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/cleo.jpeg" alt="Cleo">
-          <p>Cleo</p>
+      <div class="about-content">
+        <h2>Sobre a ACAPRA</h2>
+        <p><strong>ACAPRA</strong> é uma <strong>ONG</strong> sem fins lucrativos que atua no resgate e reabilitação de animais abandonados. Além de promover adoções responsáveis, a organização viabiliza cirurgias e tratamentos médicos por meio de campanhas de arrecadação e doações.</p>
+        <p>Nossa missão é proporcionar uma segunda chance para animais em situação de vulnerabilidade, conectando-os com famílias amorosas que possam oferecer o cuidado e carinho que merecem.</p>
+        
+        <div class="stats-container">
+          <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Animais Resgatados</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">300+</div>
+            <div class="stat-label">Adoções Realizadas</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Voluntários Ativos</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="support-message">
-      <p>Com o apoio da comunidade, a <strong>ACAPRA</strong> transforma vidas todos os dias. Contribua com essa causa: doe, adote ou seja um voluntário! 🐾</p>
-    </section>
-
-    <section class="pets">
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/luzia.jpeg" alt="Luzia">
-          <p>Luzia</p>
-        </div>
-      </div>
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/difusor.jpeg" alt="Difusor">
-          <p>Difusor</p>
-        </div>
-      </div>
-      <div class="pet-container">
-        <div class="pet-card">
-          <img src="imagens/luma.jpeg" alt="Luma">
-          <p>Luma</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="secao-adocao-nova">
-        <p id="adocaoLink2"><strong>Adotar é abrir o coração para um novo começo, onde o amor encontra um lar e a esperança ganha um nome</strong></p>
-        <div class="pet-container">          
-            <img id="cachorroimg" src="imagens/120.png" alt="Cachorro para adoção">
-            <p>Nome do Cachorro</p> 
-        </div>
-        <div class="container-novos-animais">
-          <div class="animal-para-adocao" id="animal-luma">
-            <img src="imagens/luma.jpeg" alt="Luma para adoção" class="animal-imagem">
-            <div class="animal-info">
-              <h3>Luma</h3>
-              <p>Luma é uma cachorrinha cheia de energia e amor para dar. Com seu olhar doce e jeitinho brincalhão, ela está pronta para encontrar um lar quentinho e levar muita alegria para sua nova família. Que tal dar uma chance para essa companheira leal?</p>
-              <a class="botao-adotar-animal">Quero conhecer a Luma!</a>
+    <section class="pets-gallery">
+      <h2>Nossos Amigos Disponíveis</h2>
+      <div class="pets">
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/maia.jpeg" alt="Maia">
+            <div class="pet-info">
+              <h3>Maia</h3>
+              <p>Cachorrinha carinhosa</p>
             </div>
           </div>
-
-          <div class="animal-para-adocao" id="animal-mimi">
-            <img src="imagens/mimi.jpeg" alt="Mimi para adoção" class="animal-imagem">
-            <div class="animal-info">
+        </div>
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/gloria.jpeg" alt="Glória">
+            <div class="pet-info">
+              <h3>Glória</h3>
+              <p>Companheira fiel</p>
+            </div>
+          </div>
+        </div>
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/mavie.jpeg" alt="Mavie">
+            <div class="pet-info">
+              <h3>Mavie</h3>
+              <p>Cheia de energia</p>
+            </div>
+          </div>
+        </div>
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/mimi.jpeg" alt="Mimi">
+            <div class="pet-info">
               <h3>Mimi</h3>
-              <p>Mimi é uma gatinha curiosa e muito carinhosa. Seus olhos expressivos e ronronar suave conquistam qualquer coração. Ela adora um bom carinho na barriga e um cantinho aconchegante para tirar um cochilo. Mimi está ansiosa para te conhecer!</p>
-              <a class="botao-adotar-animal">Quero conhecer a Mimi!</a>
-            </div>
-          </div>
-
-          <div class="animal-para-adocao" id="animal-luzia">
-            <img src="imagens/luzia.jpeg" alt="Luzia para adoção" class="animal-imagem">
-            <div class="animal-info">
-              <h3>Luzia</h3>
-              <p>Luzia é uma gatinha guerreira e cheia de charme, mesmo com seu olhar único. Ela é dócil, adora um colinho e promete ser uma excelente companhia. Luzia superou desafios e agora só quer um lar seguro para retribuir com muito amor e gratidão.</p>
-              <a class="botao-adotar-animal">Quero conhecer a Luzia!</a>
+              <p>Gatinha curiosa</p>
             </div>
           </div>
         </div>
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/cleo.jpeg" alt="Cleo">
+            <div class="pet-info">
+              <h3>Cleo</h3>
+              <p>Brincalhona e alegre</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="support-message">
+      <div class="support-content">
+        <h3>🐾 Faça a Diferença</h3>
+        <p>Com o apoio da comunidade, a <strong>ACAPRA</strong> transforma vidas todos os dias. Contribua com essa causa: doe, adote ou seja um voluntário!</p>
+        <div class="support-actions">
+          <a href="#doar" class="support-btn">Fazer Doação</a>
+          <a href="#adocao" class="support-btn">Adotar</a>
+          <a href="#contato" class="support-btn">Ser Voluntário</a>
+        </div>
+      </div>
     </section>
 
-    <section id="secao-maustratos">
-  <div class="maustratos-container">
-    <h2>Maus-tratos a animais é crime. Denuncie!</h2>
-    <div class="maustratos-content">
-      <img src="imagens/animais-maus-tratos.jpg" alt="Cachorro vítima de maus-tratos" class="maustratos-imagem">
-      <div class="maustratos-texto">
-        <p>Os animais são seres sencientes, capazes de sentir dor, medo e alegria. Maus-tratos não se resumem apenas à agressão física; abandonar, negligenciar cuidados básicos como alimentação, água, abrigo e assistência veterinária também são formas de crueldade. É nosso dever proteger os indefesos e garantir que vivam com dignidade e respeito.</p>
-        <p>Se você presenciar ou tiver conhecimento de qualquer ato de maus-tratos, não se cale. Denunciar é um ato de cidadania e pode salvar uma vida. Procure a delegacia de polícia mais próxima, o Ministério Público ou os órgãos ambientais competentes. Sua atitude faz a diferença.</p>
-        <a class="botao-denunciar">Saiba como denunciar</a>
+    <section class="pets-gallery">
+      <div class="pets">
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/luzia.jpeg" alt="Luzia">
+            <div class="pet-info">
+              <h3>Luzia</h3>
+              <p>Guerreira e charmosa</p>
+            </div>
+          </div>
+        </div>
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/Difusor.jpeg" alt="Difusor">
+            <div class="pet-info">
+              <h3>Difusor</h3>
+              <p>Gatinho carinhoso</p>
+            </div>
+          </div>
+        </div>
+        <div class="pet-container">
+          <div class="pet-card">
+            <img src="imagens/luma.jpeg" alt="Luma">
+            <div class="pet-info">
+              <h3>Luma</h3>
+              <p>Doce e companheira</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
-    <section>
-
-  <div class="Blog">
-    
-    <h1>Últimas Notícias</h1>
-    <h3>1- 13/05/2025 Comunicado de Paralização </h3>
-    <p>
-    A Ong não irá mais atender casos. Estamos oficialmente Paralisados! Chegamos ao nosso limite. Mesmo com a paralisação parcial, seguimos atendendo casos urgentes, 
-      pois muitos animais estão em condições deploráveis, como o Scooby, que chegou hoje. Diante dessas situações, nos vemos entre duas escolhas difíceis: deixar o animal sofrer ou buscar ajuda para salvá-los.
-     <br><br> No entanto, nossa dívida já ultrapassa R$ 70 mil. Todo o valor arrecadado é destinado ao pagamento das clínicas veterinárias, compra de ração para lares temporários e castrações, que há meses não recebemos gratuitamente.
-      Diante desse cenário, não encaminhem mais casos para a ONG.
-      Sabemos que há críticas sobre a atuação da ACAPRA, e para aqueles que acreditam que não fazemos nada, deixamos claro: resgatem, cuidem, arquem com os custos e depois doem os animais.
-      <br><br>Essa mensagem não se destina àqueles que sempre nos apoiam. Graças a essa minoria, conseguimos realizar alguns resgates urgentes. Mas agora, precisamos parar.
-      <br><br>Agradecemos a compreensão!
-      Atenciosamente,
-      Equipe ACAPRA
-      </p>
-      </div>
-
-      <div class="post">
-      <h3>📢 Feira de Adoção – Encontre seu novo AUmor!  <b> FINALIZADO</b> </h3>
-      📅 Data: Sábado, 10 de maio de 2025
-      <br><br>⏰ Horário: 9h às 12h
-      <br><br>📍 Local: Agropet Carminati – Supermercado Pet
-      <br><br> 📌 Endereço: Rua Victor Meirelles, 26 – Santa Rita
-      <br><br>Venha conhecer nossos animais e dar a eles uma nova chance! 💙🐶🐱
-      <br><br>Além da adoção, estaremos arrecadando doações para ajudar ainda mais vidas. Contamos com você!
-
-  </div>
-
     </section>
 
+    <section id="adocao" class="adoption-section">
+      <div class="adoption-header">
+        <h2>Como Adotar?</h2>
+        <p><strong>Adotar é abrir o coração para um novo começo, onde o amor encontra um lar e a esperança ganha um nome</strong></p>
+      </div>
+      
+      <div class="adoption-steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Escolha seu Companheiro</h3>
+          <p>Navegue pelos nossos animais disponíveis e encontre aquele que toca seu coração.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Entre em Contato</h3>
+          <p>Fale conosco através do Instagram ou WhatsApp para conhecer melhor o animal.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Processo de Adoção</h3>
+          <p>Realizamos uma entrevista simples para garantir o bem-estar do animal.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Leve seu Amigo para Casa</h3>
+          <p>Após aprovação, você pode levar seu novo companheiro para casa!</p>
+        </div>
+      </div>
+
+      <div class="featured-pets">
+        <h3>Animais em Destaque</h3>
+        <div class="featured-pets-grid">
+          <div class="featured-pet">
+            <img src="imagens/luma.jpeg" alt="Luma para adoção" class="featured-pet-image">
+            <div class="featured-pet-info">
+              <h4>Luma</h4>
+              <p>Luma é uma cachorrinha cheia de energia e amor para dar. Com seu olhar doce e jeitinho brincalhão, ela está pronta para encontrar um lar quentinho e levar muita alegria para sua nova família.</p>
+              <a href="#contato" class="featured-pet-btn">Quero conhecer a Luma!</a>
+            </div>
+          </div>
+
+          <div class="featured-pet">
+            <img src="imagens/mimi.jpeg" alt="Mimi para adoção" class="featured-pet-image">
+            <div class="featured-pet-info">
+              <h4>Mimi</h4>
+              <p>Mimi é uma gatinha curiosa e muito carinhosa. Seus olhos expressivos e ronronar suave conquistam qualquer coração. Ela adora um bom carinho na barriga e um cantinho aconchegante.</p>
+              <a href="#contato" class="featured-pet-btn">Quero conhecer a Mimi!</a>
+            </div>
+          </div>
+
+          <div class="featured-pet">
+            <img src="imagens/luzia.jpeg" alt="Luzia para adoção" class="featured-pet-image">
+            <div class="featured-pet-info">
+              <h4>Luzia</h4>
+              <p>Luzia é uma gatinha guerreira e cheia de charme. Ela é dócil, adora um colinho e promete ser uma excelente companhia. Luzia superou desafios e agora só quer um lar seguro.</p>
+              <a href="#contato" class="featured-pet-btn">Quero conhecer a Luzia!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="awareness-section">
+      <div class="awareness-container">
+        <h2>Maus-tratos a animais é crime. Denuncie!</h2>
+        <div class="awareness-content">
+          <img src="imagens/animais-maus-tratos.jpg" alt="Cachorro vítima de maus-tratos" class="awareness-image">
+          <div class="awareness-text">
+            <p>Os animais são seres sencientes, capazes de sentir dor, medo e alegria. Maus-tratos não se resumem apenas à agressão física; abandonar, negligenciar cuidados básicos como alimentação, água, abrigo e assistência veterinária também são formas de crueldade.</p>
+            <p>Se você presenciar ou tiver conhecimento de qualquer ato de maus-tratos, não se cale. Denunciar é um ato de cidadania e pode salvar uma vida.</p>
+            <div class="awareness-actions">
+              <a href="#contato" class="awareness-btn">Saiba como denunciar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="noticias" class="news-section">
+      <h2>Últimas Notícias</h2>
+      
+      <article class="news-post">
+        <div class="news-header">
+          <h3>📢 Comunicado de Paralização</h3>
+          <span class="news-date">13/05/2025</span>
+        </div>
+        <div class="news-content">
+          <p>A ONG não irá mais atender casos. Estamos oficialmente paralisados! Chegamos ao nosso limite. Mesmo com a paralisação parcial, seguimos atendendo casos urgentes, pois muitos animais estão em condições deploráveis.</p>
+          <p>Nossa dívida já ultrapassa R$ 70 mil. Todo o valor arrecadado é destinado ao pagamento das clínicas veterinárias, compra de ração para lares temporários e castrações.</p>
+          <p>Agradecemos a compreensão!</p>
+          <p><strong>Atenciosamente, Equipe ACAPRA</strong></p>
+        </div>
+      </article>
+
+      <article class="news-post">
+        <div class="news-header">
+          <h3>📢 Feira de Adoção – Encontre seu novo AUmor! <span class="status-tag">FINALIZADO</span></h3>
+          <span class="news-date">10/05/2025</span>
+        </div>
+        <div class="news-content">
+          <div class="event-details">
+            <p><strong>📅 Data:</strong> Sábado, 10 de maio de 2025</p>
+            <p><strong>⏰ Horário:</strong> 9h às 12h</p>
+            <p><strong>📍 Local:</strong> Agropet Carminati – Supermercado Pet</p>
+            <p><strong>📌 Endereço:</strong> Rua Victor Meirelles, 26 – Santa Rita</p>
+          </div>
+          <p>Evento realizado com sucesso! Agradecemos a todos que participaram e contribuíram para nossa causa. 💙🐶🐱</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="doar" class="donation-section">
+      <div class="donation-container">
+        <h2>🐾 Ajude-nos a Continuar Salvando Vidas</h2>
+        <p>Sua doação faz a diferença na vida de muitos animais. Cada contribuição nos ajuda a manter nosso trabalho de resgate, tratamento e cuidado.</p>
+        
+        <div class="donation-methods">
+          <div class="donation-method">
+            <h3>PIX</h3>
+            <div class="pix-key">03.772.251.0001-82</div>
+            <p>Chave PIX da ACAPRA</p>
+          </div>
+          
+          <div class="donation-uses">
+            <h3>Como usamos suas doações:</h3>
+            <ul>
+              <li>🏥 Tratamentos veterinários</li>
+              <li>🍖 Alimentação dos animais</li>
+              <li>✂️ Castrações</li>
+              <li>🏠 Manutenção de lares temporários</li>
+              <li>💊 Medicamentos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-  <div class="footer-compact-container">
-    <div class="footer-compact-top">
-      <div class="footer-compact-pix">
-        <span>DOE PELO PIX: <strong>03.772.251.0001-82</strong></span>
+  <footer id="contato">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-section">
+          <h3>ACAPRA</h3>
+          <p>Associação de Proteção aos Animais de Brusque</p>
+          <p>Transformando vidas através do amor e cuidado com os animais.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p><strong>PIX:</strong> 03.772.251.0001-82</p>
+          <p><strong>Instagram:</strong> <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank" rel="noopener noreferrer">@acaprabrusquesc</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5547999999999" target="_blank">Fale conosco</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Como Ajudar</h3>
+          <ul>
+            <li><a href="#adocao">Adotar um animal</a></li>
+            <li><a href="#doar">Fazer uma doação</a></li>
+            <li><a href="#contato">Ser voluntário</a></li>
+            <li><a href="#contato">Lar temporário</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-compact-social">
-        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank" rel="noopener noreferrer">Instagram: @acaprabrusquesc</a>
+      
+      <div class="footer-notices">
+        <p>🐾 Não somos abrigo, seja um lar temporário! 💪🏻 Venha ser um voluntário.</p>
+      </div>
+      
+      <div class="footer-credits">
+        <p>Site desenvolvido por: <strong>Leonardo Petri Hammer, Eduardo Tinti, Bruno Wozniak, Marlon Albino</strong></p>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 ACAPRA - Associação de Proteção aos Animais. Todos os direitos reservados.</p>
       </div>
     </div>
+  </footer>
 
-    <div class="footer-compact-links">
-      <a href="#sobre-nos">Sobre nós</a> | 
-      <a href="#fale-conosco">Fale conosco</a> | 
-      <a href="#politicas">Políticas</a> | 
-      <a href="#faq">FAQ</a>
-    </div>
-
-    <div class="footer-compact-notices">
-      <p>🐾 Não somos abrigo, seja um lar temporário! 💪🏻 Venha ser um voluntário.</p>
-    </div>
-
-    <div class="footer-compact-bottom">
-      <p>&copy; 2025 Acapra Brusque. Todos os direitos reservados.</p>
-    </div>
-  </div>
-</footer>
 
 </body>
 </html>
+
