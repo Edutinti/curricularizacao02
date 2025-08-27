@@ -907,6 +907,56 @@ footer {
   }
 }
 
+/* Classes para estilos que estavam inline */
+.news-video-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.video-container {
+  flex: 0 0 300px;
+  min-width: 250px;
+}
+
+.video-container video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.news-text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.marley-info-box {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.marley-info-title {
+  margin-top: 0;
+  color: #6f42c1;
+}
+
+.marley-info-list {
+  margin-bottom: 0;
+}
+
+.contact-link {
+  color: #6f42c1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-center-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media (max-width: 480px) {
   .hero-section {
     padding: 100px 15px 60px;
@@ -941,6 +991,20 @@ footer {
   
   .awareness-actions {
     flex-direction: column;
+  }
+  
+  .news-video-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .video-container {
+    flex: none;
+    min-width: auto;
+  }
+  
+  .news-text-content {
+    min-width: auto;
   }
 }
 
