@@ -3,6 +3,31 @@
   <component name="GhostTextManager">
     <option name="inputs">
       <map>
+        <entry key="concerta os erros">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761693605798" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="eu quero o bloco da luzia embaixo e em cima o numero 4 centralizados na pagina">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="2.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761694061591" />
+                  <option value="1761694026992" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="jogue aquele numero 4 para o meio ali da pagina">
           <value>
             <GhostTextMetaData>
@@ -15,6 +40,18 @@
             </GhostTextMetaData>
           </value>
         </entry>
+        <entry key="nao estao ainda">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761693926780" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="o fundo ficou roxo e ta maior que os outros">
           <value>
             <GhostTextMetaData>
@@ -22,6 +59,18 @@
               <option name="timestamps">
                 <list>
                   <option value="1761693123767" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="quero esses dois blocos de baixo que estao mais para a esquerda, no centro">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761693794588" />
                 </list>
               </option>
             </GhostTextMetaData>

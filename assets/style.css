@@ -487,6 +487,12 @@ body {
   line-height: 1.6;
 }
 
+.step-center {
+  grid-column: 1 / -1;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .featured-pets h3 {
   text-align: center;
   font-size: 2rem;
@@ -552,6 +558,12 @@ body {
   box-shadow: 0 8px 20px rgba(72, 62, 130, 0.3);
 }
 
+.featured-pet-center {
+  grid-column: 1 / -1;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .awareness-section {
   background: #fff;
   padding: 4rem 2rem;
@@ -613,6 +625,10 @@ body {
 
 .news-section {
   margin-bottom: 4rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
 }
 
 .news-section h2 {
@@ -691,6 +707,9 @@ body {
   border-radius: 20px;
   margin-bottom: 4rem;
   text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .donation-container h2 {
