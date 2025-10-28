@@ -487,12 +487,6 @@ body {
   line-height: 1.6;
 }
 
-.step-center {
-  grid-column: 1 / -1;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
 .featured-pets h3 {
   text-align: center;
   font-size: 2rem;
@@ -1012,6 +1006,69 @@ footer {
   .news-text-content {
     min-width: auto;
   }
-  
+ 
 }
 
+.adoption-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap; 
+}
+
+.adoption-btn {
+  background-color: #00bfff; 
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 191, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.adoption-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 191, 255, 0.6);
+}
+
+.dog-btn {
+  background-color: #483e82; 
+  box-shadow: 0 8px 25px rgba(72, 62, 130, 0.4);
+}
+
+.dog-btn:hover {
+  background-color: #6e48aa; 
+  box-shadow: 0 12px 30px rgba(72, 62, 130, 0.6);
+}
+
+.cat-btn {
+  background-color: #00bfff; 
+  box-shadow: 0 8px 25px rgba(0, 191, 255, 0.4);
+}
+
+.cat-btn:hover {
+  background-color: #009acd; 
+  box-shadow: 0 12px 30px rgba(0, 191, 255, 0.6);
+}
+
+@media (max-width: 600px) {
+  .adoption-buttons-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .adoption-btn {
+    width: 100%;
+    min-width: 0;
+  }
+}
