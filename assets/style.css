@@ -487,6 +487,12 @@ body {
   line-height: 1.6;
 }
 
+.step-center {
+  grid-column: 1 / -1;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .featured-pets h3 {
   text-align: center;
   font-size: 2rem;

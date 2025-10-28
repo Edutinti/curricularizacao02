@@ -3,6 +3,30 @@
   <component name="GhostTextManager">
     <option name="inputs">
       <map>
+        <entry key="jogue aquele numero 4 para o meio ali da pagina">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761693041482" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
+        <entry key="o fundo ficou roxo e ta maior que os outros">
+          <value>
+            <GhostTextMetaData>
+              <option name="count" value="1.0" />
+              <option name="timestamps">
+                <list>
+                  <option value="1761693123767" />
+                </list>
+              </option>
+            </GhostTextMetaData>
+          </value>
+        </entry>
         <entry key="renomeia as pastas para redirecionar certo as imagens">
           <value>
             <GhostTextMetaData>
