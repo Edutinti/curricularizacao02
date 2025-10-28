@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header-denuncia {
+    background-color: #514888;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.header-denuncia h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.main-denuncia {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-denuncia {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.section-denuncia h2 {
+    color: #514888;
+    border-bottom: 2px solid #514888;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.denuncia-canais, .denuncia-dicas {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .denuncia-canais {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.canal-item, .dica-item {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-left: 4px solid #514888;
+    border-radius: 4px;
+}
+
+.canal-item h3 {
+    color: #514888;
+    margin-top: 0;
+}
+
+.final-message {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #514888;
+}
+
+.back-button {
+    display: block;
+    width: 250px;
+    margin: 2rem auto 0;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: #514888;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #3b3562;
+}
